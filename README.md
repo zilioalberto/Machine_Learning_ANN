@@ -62,12 +62,6 @@ x_2 = \frac{w_3 - w_1 x_1}{w_2} \; (w_2 \neq 0)
 
 **Viés/pesos:** \(w_1, w_2\) moldam a inclinação; \(w_3\) desloca a reta.
 
-![Fronteira de decisão — Caso 1](sandbox:/mnt/data/ann_assets/fig_01.png)
-
-*Fronteira de decisão — Caso 1*
-![Fronteira de decisão — Caso 2](sandbox:/mnt/data/ann_assets/fig_02.png)
-
-*Fronteira de decisão — Caso 2*
 
 ---
 
@@ -76,18 +70,6 @@ x_2 = \frac{w_3 - w_1 x_1}{w_2} \; (w_2 \neq 0)
 - η pequeno → mais épocas; η moderado (0.5–1.0) → bom custo/benefício; η alto (2.0) pode oscilar.  
 - *Shuffle* tende a acelerar/estabilizar a convergência.
 
-![Curva/Resultado — Figura 03](sandbox:/mnt/data/ann_assets/fig_03.png)
-
-*Curva/Resultado — Figura 03*
-![Curva/Resultado — Figura 04](sandbox:/mnt/data/ann_assets/fig_04.png)
-
-*Curva/Resultado — Figura 04*
-![Curva/Resultado — Figura 05](sandbox:/mnt/data/ann_assets/fig_05.png)
-
-*Curva/Resultado — Figura 05*
-![Curva/Resultado — Figura 06](sandbox:/mnt/data/ann_assets/fig_06.png)
-
-*Curva/Resultado — Figura 06*
 
 ---
 
@@ -95,36 +77,19 @@ x_2 = \frac{w_3 - w_1 x_1}{w_2} \; (w_2 \neq 0)
 Usamos \( o = 2/(1+e^{-\lambda u}) - 1 \) e derivada \( (1-o^2)/2 \).  
 **SSE** decresce até o limiar; acurácia 100% por sinal(o).
 
-![Regra Delta — Figura 07](sandbox:/mnt/data/ann_assets/fig_07.png)
 
-*Regra Delta — Figura 07*
-![Regra Delta — Figura 08](sandbox:/mnt/data/ann_assets/fig_08.png)
-
-*Regra Delta — Figura 08*
 
 ---
 
 ## 7) Repetição com scikit-learn (Perceptron)
 `fit_intercept=True` trata o viés internamente. Resultados equivalentes (acurácia 100%).
 
-![sklearn — Figura 09](sandbox:/mnt/data/ann_assets/fig_09.png)
-
-*sklearn — Figura 09*
-![sklearn — Figura 10](sandbox:/mnt/data/ann_assets/fig_10.png)
-
-*sklearn — Figura 10*
 
 ---
 
 ## 8) (Opcional) XOR — Limite do Perceptron e MLP
 Perceptron linear falha; MLP (tanh, 1 camada oculta) separa perfeitamente.
 
-![XOR — Figura 11](sandbox:/mnt/data/ann_assets/fig_11.png)
-
-*XOR — Figura 11*
-![XOR — Figura 12](sandbox:/mnt/data/ann_assets/fig_12.png)
-
-*XOR — Figura 12*
 
 ---
 
